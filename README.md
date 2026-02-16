@@ -12,7 +12,7 @@ Ported from the [broodminder-diy](https://github.com/dstrickler/broodminder-diy)
 
 | File | Language | Platform | Description |
 |------|----------|----------|-------------|
-| `main.go` | Go | Linux (primary), macOS (limited) | BLE scanner using `tinygo.org/x/bluetooth` |
+| `main.go` | Go | Linux (Raspberry Pi) | BLE scanner using `tinygo.org/x/bluetooth` |
 | `main_test.go` | Go | — | Unit tests for BLE packet parser |
 | `bm-scan.sh` | Bash | Linux only (Raspberry Pi) | BLE scanner using `hcitool` + `hcidump` (BlueZ) |
 | `go.mod` | — | — | Go module definition |
