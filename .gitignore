@@ -1,0 +1,25 @@
+# Binaries
+bm-scan
+bm-scan-linux-arm64
+bm-scan-linux-arm
+bm-scan-linux-amd64
+*.exe
+
+# Test and coverage
+coverage.out
+coverage.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Secrets
+*.key
+*.secret
+.env
